@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:cursive;
+    background:linear-gradient( to right ,skyblue , lightseagreen);
+    margin-bottom: 50px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: medium;
+    font-weight: bolder;
+}
+.input:nth-child(3){
+    width: 190px;
+}
+.input::placeholder{
+    color: rgb(78, 75, 75);
+    padding-left: 10px;
+}
+.btn-submit{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box{
+    width: 230px;
+    min-height: 280px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 13px;
+}
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+img{
+    width: 220px;
+    height: 180px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.name{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 220px;
+    min-height: 50px;
+    text-align: center;
+}
+.price{
+    min-width: 100px;
+    height: 25px;
+    background-color: maroon;
+    color:#fff;
+    font-style: oblique;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btn-buy{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 2px solid steelblue;
+}
+.btn-buy:hover{
+    background-color: rgb(218, 232, 248);
+}
+.btn-buy:active{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
